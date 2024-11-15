@@ -1,1 +1,10 @@
-{}
+{
+  "apps": {
+    "T038J6TH5PF": {
+      "app_id": "A0816MU9QPN",
+      "team_domain": "devrelsandbox",
+      "team_id": "T038J6TH5PF"
+    }
+  },
+  "default": "devrelsandbox"
+}
