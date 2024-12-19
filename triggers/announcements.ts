@@ -1,6 +1,6 @@
 import { Trigger } from "deno-slack-sdk/types.ts";
 import { TriggerTypes } from "deno-slack-api/mod.ts";
-import release from "../workflows/sample_workflow.ts";
+import release from "../workflows/announcements.ts";
 
 const releaser: Trigger<typeof release.definition> = {
   type: TriggerTypes.Webhook,
