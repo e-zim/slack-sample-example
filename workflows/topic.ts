@@ -23,7 +23,7 @@ const commits = DefineWorkflow({
 commits.addStep(Schema.slack.functions.UpdateChannelTopic, {
   channel_id: "C04CRUE6MU3",
   topic:
-    `:large_green_square: ${commits.inputs.commit_repository}: ${commits.inputs.commit_message}`,
+    `:large_green_square: *${commits.inputs.commit_repository}* ${commits.inputs.commit_message}`,
 });
 
 export default commits;
